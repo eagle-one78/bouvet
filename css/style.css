@@ -1,0 +1,65 @@
+/* 
+    Document   : style
+    Created on : 2013-sep-18, 22:22:05
+    Author     : Sam
+    Description:
+        Purpose of the stylesheet follows.
+*/
+
+.container {
+  width: 960px;
+  height: auto;
+  clear: both;
+  margin-left: auto;
+  margin-right: auto;
+}
+.link-list {
+  list-style: none;
+}
+.link-list-item{
+  width: 100%;
+}
+.link-list-item a {
+  margin: 4% 0;
+  float: left;
+  width: 100%;
+}
+.link-image {
+  width: 30%;
+  height: 20%;
+  float: left;
+  margin-right: 2%;
+  border: 1px solid #a9a9a9;
+}
+#progressbar .ui-progressbar-value.ui-widget-header.ui-corner-left{
+  height: 25px;
+  background-color: activeborder;
+}
+.ui-progressbar {
+    position: relative;
+ }
+.progress-label {
+  position: absolute;
+  left: 50%;
+  top: 4px;
+  font-weight: bold;
+  text-shadow: 1px 1px 0 #fff;
+  color: cornflowerblue;
+}
+.loading {
+  display: none;
+}
+.footer {
+ position: fixed;
+ bottom: 0;
+}
+.toggle-me{
+  background-color: #005580;
+  color: white;
+}
+.toggle-me:hover{
+  cursor: pointer;
+}
+.about{
+  display: none;
+}
